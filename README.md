@@ -1,8 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sungape ShopHub - E-commerce Product Listing
+A modern e-commerce product listing application built with Next.js, TypeScript, and the Fake Store API. This project demonstrates how to create a responsive e-commerce frontend with filtering, sorting, and state management.
+
+
+## 🚀 Features
+
+- Product Display: Shows all products from the Fake Store API with images, titles, prices, and ratings
+- Category Filtering: Filter products by category
+- Advanced Sorting: Sort products by price (low to high, high to low) and rating
+- Responsive Design: Works well on mobile, tablet, and desktop devices
+- State Management: Uses React Context API for complex state management
+- TypeScript: Strong typing throughout the application
+
+
+## 🛠️ Technologies Used
+
+- Next.js: React framework for production
+- TypeScript: For type safety and improved developer experience
+- Tailwind CSS: For styling
+- React Context API: For state management
+- Fake Store API: For product data
 
 ## Getting Started
 
-First, run the development server:
+### 🔧 Installation
+
+1. Clone the repository:
+
+```bash 
+git clone https://github.com/yourusername/sungape-shophub.git
+
+cd sungape-shophub
+```
+
+2. Install dependencies
+
+```bash 
+npm install
+```
+
+3. Start the development server:
+Run the development server using,
 
 ```bash
 npm run dev
@@ -16,21 +53,19 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Deployment
+The project is configured for easy deployment to Vercel:
 
-## Learn More
+- Push your code to GitHub
+- Import your GitHub repository to Vercel
+- Deploy with default settings (Vercel will detect Next.js automatically)
 
-To learn more about Next.js, take a look at the following resources:
+## 🧪 Future Improvements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Add product detail page
+- Implement cart functionality
+- Add user authentication
+- Improve accessibility
+- Add unit and integration tests
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
